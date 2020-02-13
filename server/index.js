@@ -33,7 +33,7 @@ var transporter = nodemailer.createTransport({
 
 // configure our email details:
 const mailOptions = {
-  from: "everyday.panama@gmail.com", // sender address
+  from: process.env.mailUser, // sender address
   to: "ericlucero501@gmail.com", // list of receivers
   subject: "Subject of your email from Nodemail", // Subject line
   html: "<p>Your html here</p>" // plain text body
