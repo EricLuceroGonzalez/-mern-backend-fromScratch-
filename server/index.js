@@ -38,7 +38,6 @@ const mailOptions = {
   subject: "Subject of your email from Nodemail", // Subject line
   html: "<p>Your html here</p>" // plain text body
 };
-//
 
 // -------------   CRUD  -----------------
 app.get("/", (req, res) => {
